@@ -1,6 +1,6 @@
 //? Patron Módulo
 
-const miModulo = (() => { //* Funcion anonima que se llama automaticamente
+const miModulo = (() => { //* Función anonima que se llama automaticamente
     'use strict';
 
 
@@ -125,7 +125,7 @@ const miModulo = (() => { //* Funcion anonima que se llama automaticamente
             } else {
                 alert('Computadora Gana');
             };
-        }, 50);  
+        }, 100);  
     };
 
 
