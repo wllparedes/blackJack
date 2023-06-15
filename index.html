@@ -18,21 +18,21 @@
 
 
     <header class="titulo">
-        BlackJack
+        <h1>BlackJack</h1>
     </header>
 
     <div class="mt-2">
         <div id="divBotones" class="text-center">
-            <button id="btnNuevo"  class="btn btn-danger">Nuevo Juego</button>
+            <button id="btnNuevo"  class="btn btn-secondary">Nuevo Juego</button>
             <button id="btnPedir" class="btn btn-primary" disabled>Pedir Carta</button>
-            <button id="btnDetener" class="btn btn-primary" disabled>Detener</button>
+            <button id="btnDetener" class="btn btn-danger" disabled>Detener Juego</button>
         </div>
     </div>
 
 
-    <div class="row container">
+    <div class="row container mt-2">
         <div class="col">
-            <h1>Jugador 1 - <small>0</small></h1>
+            <h1>Jugador 1 | Puntos: <small>0</small></h1>
             <div id="jugador-cartas" class="divCartas">
                 <!-- <img class="carta" src="assets/cartas/2C.png" alt=""> -->
             </div>
@@ -41,16 +41,18 @@
 
     <div class="row container mt-2">
         <div class="col">
-            <h1>Computadora - <small>0</small></h1>
+            <h1>Computadora | Puntos: <small>0</small></h1>
             <div id="computadora-cartas" class="divCartas">
                 <!-- <img class="carta" src="assets/cartas/2C.png" alt=""> -->
             </div>
         </div>
     </div>
 
-
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="assets/js/alerts-min.js"></script>
     <script src="assets/js/underscore-min.js"></script> <!-- Libreria de Js de muchas funcionalidades -->
     <script src="assets/js/juego-min.js"></script>
 </body>
 
 </html>
+

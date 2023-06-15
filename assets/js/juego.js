@@ -3,7 +3,6 @@
 const miModulo = (() => { //* Función anonima que se llama automaticamente
     'use strict';
 
-
     let deck = [];
     const tipos = ['C', 'D', 'H', 'S'], especiales = ['A', 'J', 'Q', 'K'];
 
@@ -117,15 +116,15 @@ const miModulo = (() => { //* Función anonima que se llama automaticamente
         
         setTimeout(() => {
             if (puntosComputadora === puntosMinimos) {
-                alert('Nadie gana.');
+                empate();
             } else if (puntosMinimos > 21) {
-                alert('Computadora gana.');
+                perdiste();
             } else if (puntosComputadora > 21) {
-                alert('Jugador gana');
+                ganaste();
             } else {
-                alert('Computadora Gana');
+                perdiste();
             };
-        }, 100);  
+        }, 500);  
     };
 
 

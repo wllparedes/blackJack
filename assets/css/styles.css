@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Signika:wght@300&display=swap');
 html, body{
     margin: 0;
     background-color: #2F4F30;
     color: white;
+    user-select: none;
 }
-
-
 
 .titulo{
     text-align: center;
@@ -12,6 +12,11 @@ html, body{
     color: white;
     padding: 20px;
     font-size: 25px;
+    font-family:'Righteous', cursive;
+}
+
+.container, #divBotones{
+    font-family: 'Signika',sans-serif;
 }
 
 .carta{
@@ -23,4 +28,13 @@ html, body{
 
 #computadora-cartas, #jugador-cartas{
     height: 240px;
+}
+
+/* Estilos sweetalert2 */
+
+.swal2-title {
+    font-family:'Righteous', cursive;
+}
+.swal2-content {
+    font-family: 'Signika',sans-serif;
 }
